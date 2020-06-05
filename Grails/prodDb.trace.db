@@ -1,0 +1,6 @@
+2019-01-23 17:15:10 jdbc[7]: exception
+org.h2.jdbc.JdbcSQLException: Table "CLIENTE" not found; SQL statement:
+select this_.id as y0_ from cliente this_ where this_.codice_fiscale=? limit ? [42102-197]
+2019-01-23 17:23:51 jdbc[7]: exception
+org.h2.jdbc.JdbcSQLException: Table "CLIENTE" not found; SQL statement:
+select this_.id as y0_ from cliente this_ where this_.codice_fiscale=? limit ? [42102-197]

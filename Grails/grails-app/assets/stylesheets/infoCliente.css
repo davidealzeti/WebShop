@@ -1,0 +1,83 @@
+.colonnato{
+-webkit-column-count: 2;
+-moz-column-count: 2;
+column-count: 2;
+-webkit-column-gap: 1px;
+-moz-column-gap: 1px;
+column-gap: 1px;
+-webkit-column-rule: 1px solid rgba(28,110,164,0.5);
+-moz-column-rule: 1px solid rgba(28,110,164,0.5);
+column-rule: 1px solid rgba(28,110,164,0.5);
+}
+
+.home{
+	text-align: center;
+}
+
+.links{
+	text-align: right;
+}
+
+.button{
+	text-align: right;
+	background-color: lightgrey;
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.button:active {
+  background-color: black;
+}
+
+.button:visited {
+  background-color: #ccc;
+}
+
+.topright {
+  position: relative;
+  top: 1px;
+  left: 1150px;
+  font-size: 15px;
+}
+
+.header { color: #7c795d; font-family: 'Trocchi', serif; font-size: 45px; font-weight: normal; line-height: 48px; margin: 0; }
+.paragraph { color: #4c4a37; font-family: 'Source Sans Pro', sans-serif; font-size: 18px; line-height: 32px; margin: 0 0 24px; }
+.redparagraph { color: red; font-family: 'Source Sans Pro', sans-serif; font-size: 18px; line-height: 32px; margin: 0 0 24px; }	
+.smallerparagraph { color: #4c4a37; font-family: 'Source Sans Pro', sans-serif; font-size: 16px; line-height: 32px; margin: 0 0 24px; }
+
+.checkbox {
+  width: 13px;
+  height: 13px;
+  padding: 0;
+  margin:0;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+  *overflow: hidden;
+}
+
+.checkboxtext {
+  display: block;
+  padding-left: 15px;
+  text-indent: -15px;
+}
+.indent-1 {float: left;}
+.indent-1 section {width: 50%; float: left;}
+
+.breakline{white-space: normal; color: white;}
+
+mark.red {
+    color:#ff0000;
+    background: none;
+}
+
+mark.blue {
+    color:#0000A0;
+    background: none;
+}
